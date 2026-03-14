@@ -11,7 +11,37 @@ Network connectivity between the forensic workstation (GTCKali) and the target s
 
 Command used:
 
-Ping 172.17.0.4
+ping 172.17.0.4
+
+## Artifact Extraction and Analysis
+
+After acquiring the partial forensic disk image, artifact extraction was performed using Bulk Extractor.
+
+Command used: 
+
+bulk_extractor Phase2/kali_disk_image.dd -o Phase2/artifacts
+
+Bulk Extractor scans disk images and extracts forensic artifacts such as email addresses, URLs, network data, and file fragments.
+
+The tool generated multiple artifact files including:
+
+- email.txt
+- httplogs.txt
+- url.txt
+- winprefetch.txt
+- telephone.txt
+- facebook.txt
+- sqlite_carved.txt
+- winprefetch.txt
+
+These artifacts provide investigators with potential indicators of user activity and system usage during the simulated incident.
+
+Example artifact review command:
+cat Phase2/artifacts/url.txt | head
+
+The extracted artifact files confirm that forensic data can be recovered from teh disk image, demonstrating the effectiveness of artifact extraction
+during forensic investigations.
+
 
 ## Azure Disk Snapshot
 
