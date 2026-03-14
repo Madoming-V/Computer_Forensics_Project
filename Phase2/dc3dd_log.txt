@@ -1,0 +1,33 @@
+
+dc3dd 7.2.646 started at 2026-03-14 17:36:57 +0000
+compiled options:
+command line dc3dd if=/dev/sda of=Phase2/kali_disk_image.dd hash=sha256 log=Phase2/dc3dd_log.txt
+device size: 83886080 sectors (probed),   42,949,672,960 bytes
+sector size: 512 bytes (probed)
+[!!] writing to `Phase2/kali_disk_image.dd': No space left on device
+ 34799386624 bytes ( 32 G ) copied ( 81% ), 1912.41 s, 17 M/s
+
+input results for device `/dev/sda':
+   67967552 sectors in
+   0 bad sectors replaced by zeros
+   ffdc1197d3aaaaafdaf0fedb4d37995d51d5e0faeedc2d59fd050e3fc5be91a5 (sha256)
+
+output results for file `Phase2/kali_disk_image.dd':
+   67966976 sectors out
+
+dc3dd failed at 2026-03-14 18:08:49 +0000
+
+
+dc3dd 7.2.646 started at 2026-03-14 18:53:41 +0000
+compiled options:
+command line dc3dd if=/dev/sda of=Phase2/kali_disk_image.dd hash=sha256 count=2000000 log=Phase2/dc3dd_log.txt
+[!!] unrecognized option count=2000000
+dc3dd aborted at 2026-03-14 18:53:41 +0000
+
+
+dc3dd 7.2.646 started at 2026-03-14 18:55:18 +0000
+compiled options:
+command line dc3dd if=/dev/sda of=Phase2/kali_disk_image.dd hash=sha256 size=1G log=Phase2/dc3dd_log.txt
+[!!] unrecognized option size=1G
+dc3dd aborted at 2026-03-14 18:55:18 +0000
+
