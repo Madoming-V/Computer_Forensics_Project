@@ -12,3 +12,28 @@ Network connectivity between the forensic workstation (GTCKali) and the target s
 Command used:
 
 Ping 172.17.0.4
+
+## Azure Disk Snapshot
+
+After the simulated incident activity was performed on the WindowsTarget virtual machine, an Azure disk snapshot was created for forensic analysis.
+
+Snapshot Name: WindowsTarget_EvidenceSnapshot
+Resource Group: DFC-GTC
+Location: East US 2
+Snapshot Time: March 14, 2026
+
+The snapshot preserves the disk state of the WindowsTarget virtual machine following the simulated incident. This allows investigators to analyze the system without altering the original evidence.
+
+
+
+# Evidence Identification
+
+The following evidence items were collected during the investigation.
+
+| Evidence ID | Evidence Description | Source |
+|-------------|----------------------|--------|
+| EVT-001 | Azure VM disk snapshot| WindowsTarget |
+| EVT-002 | Network capture (.pcap) | Kali forensic workstation |
+| EVT-003 | Partial Kali disk image (.dd) | Kali forensic workstation |
+| EVT-004 | Extracted artifacts using Bulk Extractor | Kali forensic workstation |
+
