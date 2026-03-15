@@ -1,4 +1,6 @@
-*.dd
-*.pcap
+* .dd
+* .img
+* .pcap
+* .raw
 artifacts/
 Phase2/artifacts/
