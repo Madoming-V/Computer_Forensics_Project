@@ -4,3 +4,6 @@
 * .raw
 artifacts/
 Phase2/artifacts/
+Phase2/*.dd
+Phase2/*.pcap
+
