@@ -1,0 +1,4 @@
+17:12:38.812559 IP 172.17.0.5.59288 > 168.63.129.16.53: 39399+ A? umsajmjmkkprknzfr3vv.blob.core.windows.net. (60)
+17:12:38.812570 IP 172.17.0.5.59288 > 168.63.129.16.53: 64228+ AAAA? umsajmjmkkprknzfr3vv.blob.core.windows.net. (60)
+17:12:38.815696 IP 168.63.129.16.53 > 172.17.0.5.59288: 39399 5/0/0 CNAME blob.bn4prdstrz07a.store.core.windows.net., CNAME blob.bn4prdstrz07a.trafficmanager.net., A 20.60.225.33, A 20.60.180.225, A 20.60.57.65 (195)
+17:12:38.815821 IP 168.63.129.16.53 > 172.17.0.5.59288: 64228 2/1/0 CNAME blob.bn4prdstrz07a.store.core.windows.net., CNAME blob.bn4prdstrz07a.trafficmanager.net. (208)

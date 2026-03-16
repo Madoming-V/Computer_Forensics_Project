@@ -1,0 +1,20 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.1.1
+# Feature-Recorder: url
+# Filename: Phase2/kali_disk_image.dd
+# Feature-File-Version: 1.1
+178343567	https://www.isc.org/software/dhcp/	o, please visit https://www.isc.org/software/dhcp/\000\000\000\000\000\000\000\003\000\000\000\000\000\000\000\230
+178452933	https://www.rsyslog.com	d="851" x-info="https://www.rsyslog.com"] start\000\000\000\000\001\000\000\000
+179369477	https://www.rsyslog.com	d="851" x-info="https://www.rsyslog.com"] exiting on si
+179819606	https://cisofy.com/lynis/	-2025, CISOfy - https://cisofy.com/lynis/\000\003\000\000\000\000\000\000\000\230\000\000\000\000\000\000
+180129518	https://cisofy.com/lynis/controls/KRNL-5830/	\000\000MESSAGE=      https://cisofy.com/lynis/controls/KRNL-5830/\000\000\000\000\000\000\003\000\000\000\000\000\000\000\230\000
+180130102	https://cisofy.com/lynis/controls/FIRE-4512/	\000\000MESSAGE=      https://cisofy.com/lynis/controls/FIRE-4512/\000\000\000\000\000\000\003\000\000\000\000\000\000\000\230\000
+180131417	https://cisofy.com/lynis/controls/DEB-0280/	     * Website: https://cisofy.com/lynis/controls/DEB-0280/\000\000\000\000\003\000\000\000\000\000\000\000\230\000\000\000
+180132241	https://cisofy.com/lynis/controls/DEB-0810/	     * Website: https://cisofy.com/lynis/controls/DEB-0810/\000\000\000\000\003\000\000\000\000\000\000\000\230\000\000\000
+180133025	https://cisofy.com/lynis/controls/DEB-0811/	     * Website: https://cisofy.com/lynis/controls/DEB-0811/\000\000\000\000\003\000\000\000\000\000\000\000\230\000\000\000
+180133905	https://cisofy.com/lynis/controls/DEB-0831/	     * Website: https://cisofy.com/lynis/controls/DEB-0831/\000\000\000\000\003\000\000\000\000\000\000\000\230\000\000\000
+180134689	https://cisofy.com/lynis/controls/DEB-0880/	     * Website: https://cisofy.com/lynis/controls/DEB-0880/\000\000\000\000\003\000\000\000\000\000\000\000\230\000\000\000
+180135569	https://cisofy.com/lynis/controls/BOOT-5122/	     * Website: https://cisofy.com/lynis/controls/BOOT-5122/\000\000\000\003\000\000\000\000\000\000\000\230\000\000\000\000
+180144761	https://cisofy.com/lynis/controls/BOOT-5180/	     * Website: https://cisofy.com/lynis/controls/BOOT-5180/\000\000\000\003\000\000\000\000\000\000\000\230\000\000\000\000
+180145859	https://linux-audit.com/systemd/systemd-features-to-secure-units-and-services/	 service files: https://linux-audit.com/systemd/systemd-features-to-secure-units-and-services/\000\000\000\000\000\000\000\003\000\000\000\000\000\000\000\230
+180146193	https://cisofy.com/lynis/controls/BOOT-5264/	     * Website: https://cisofy.com/lynis/controls/BOOT-5264/\000\000\000\003\000\000\000\000\000\000\000\230\000\000\000\000
