@@ -1,0 +1,35 @@
+PHASE 3 FORENSIC ANALYSIS FINDINGS
+
+Disk Artifact Evidence
+----------------------
+Bulk Extractor analysis recovered URL artifacts from the forensic disk image.
+Examples include:
+- https://www.isc.org/software/dhcp/
+- https://www.rsyslog.com
+- https://cisofy.com/lynis/
+
+These URLs indicate interaction with system documentation and web resources.
+
+Domain Artifact Evidence
+------------------------
+Domain artifacts identified references to external domains including:
+- isc.org
+- linux.it
+
+Network infrastructure artifacts also revealed communication with Azure platform services including IP address 168.63.129.16.
+
+Network Traffic Evidence
+------------------------
+Packet capture analysis identified TCP communications between the forensic workstation and external IP addresses.
+
+Example connection observed:
+172.17.0.5 → 73.82.6.95
+
+This confirms outbound network communication occurred during the investigation period.
+
+DNS Traffic Evidence
+--------------------
+DNS queries were observed for Azure cloud infrastructure domains including:
+blob.core.windows.net
+
+This confirms the virtual machine communicated with Azure storage services.
