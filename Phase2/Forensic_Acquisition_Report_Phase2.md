@@ -18,6 +18,7 @@ forensic artifacts during normal activiy.
 Platform: Microsoft Azure Virtual Machine
 Operating System: Windows 10 (Azure Virtual Machine)
 VM Name: WindowsTarget
+Purpose: Simulate user activity and generate digital evidence for forensic acquisition.
 
 The forensic workstation system used for this investigation was Kali Linux vitual machine deployed in Microsoft Azure. The system was used to perform evidence acquisition and analysis using forensic tools 
 such as dd, tcpdump and Bulk Extractor. 
@@ -25,8 +26,7 @@ such as dd, tcpdump and Bulk Extractor.
 Platform: Microsoft Azure Virtual Machine
 Operating System: Kali Linux
 VM Name: GTCKali
-
-Purpose: simulate user activity and generate digital evidence for forensic acquisition.
+Purpose: Perform evidence aquisition and analysis using forensic tools.
 
 
 ## Simulated Incidnet Scenario
