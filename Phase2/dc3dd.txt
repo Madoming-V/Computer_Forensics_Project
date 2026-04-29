@@ -1,0 +1,18 @@
+
+dc3dd 7.2.646 started at 2026-04-29 19:13:37 +0000
+compiled options:
+command line dc3dd if=/dev/sdc of=/home/GTCKali/Computer_Forensics_Project/Phase2/windows_target_image.dd hash=sha256 log=/home/GTCKali/Computer_Forensics_Project/Phase2/dc3dd.txt
+device size: 266342400 sectors (probed),   136,367,308,800 bytes
+sector size: 512 bytes (probed)
+ 21482438656 bytes ( 20 G ) copied ( 16% ), 2993.85 s, 6.8 M/s
+
+input results for device `/dev/sdc':
+   41957888 sectors in
+   0 bad sectors replaced by zeros
+   8a5810a929fb2a4a7a34d211ec3ee686e41a5c070bed0306a0b0bd45a5a40430 (sha256)
+
+output results for file `/home/GTCKali/Computer_Forensics_Project/Phase2/windows_target_image.dd':
+   41957888 sectors out
+
+dc3dd aborted at 2026-04-29 20:03:31 +0000
+
