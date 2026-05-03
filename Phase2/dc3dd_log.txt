@@ -31,3 +31,21 @@ command line dc3dd if=/dev/sda of=Phase2/kali_disk_image.dd hash=sha256 size=1G 
 [!!] unrecognized option size=1G
 dc3dd aborted at 2026-03-14 18:55:18 +0000
 
+
+dc3dd 7.2.646 started at 2026-05-01 14:10:27 +0000
+compiled options:
+command line dc3dd if=/dev/sda of=/home/GTCKali/Computer_Forensics_Project/Phase2/windows_target_image.dd hash=sha256 log=/home/GTCKali/Computer_Forensics_Project/Phase2/dc3dd_log.txt
+device size: 266342400 sectors (probed),   136,367,308,800 bytes
+sector size: 512 bytes (probed)
+136367308800 bytes ( 127 G ) copied ( 100% ), 16307 s, 8 M/s
+
+input results for device `/dev/sda':
+   266342400 sectors in
+   0 bad sectors replaced by zeros
+   c6efbc77323028c05969cbf0ea132a7e33311be4eef023843dbea71d985f4c69 (sha256)
+
+output results for file `/home/GTCKali/Computer_Forensics_Project/Phase2/windows_target_image.dd':
+   266342400 sectors out
+
+dc3dd completed at 2026-05-01 18:42:14 +0000
+

@@ -16,3 +16,39 @@ output results for file `/home/GTCKali/Computer_Forensics_Project/Phase2/windows
 
 dc3dd aborted at 2026-04-29 20:03:31 +0000
 
+
+dc3dd 7.2.646 started at 2026-04-29 21:59:02 +0000
+compiled options:
+command line dc3dd if=/dev/sdc of=/home/GTCKali/Computer_Forensics_Project/Phase2/windows_target_image.dd hash=sha256 log=/home/GTCKali/Computer_Forensics_Project/Phase2/dc3dd.txt
+device size: 16777216 sectors (probed),    8,589,934,592 bytes
+sector size: 512 bytes (probed)
+  8589934592 bytes ( 8 G ) copied ( 100% ), 307.505 s, 27 M/s
+
+input results for device `/dev/sdc':
+   16777216 sectors in
+   0 bad sectors replaced by zeros
+   8a71a5ce3d22bbc295de675fd0600b2b68f968f8c341021f573d9a122c4e454b (sha256)
+
+output results for file `/home/GTCKali/Computer_Forensics_Project/Phase2/windows_target_image.dd':
+   16777216 sectors out
+
+dc3dd completed at 2026-04-29 22:04:09 +0000
+
+
+dc3dd 7.2.646 started at 2026-04-29 23:47:09 +0000
+compiled options:
+command line dc3dd if=/dev/sdc of=/home/GTCKali/Computer_Forensics_Project/Phase2/windows_target_image.dd hash=sha256 log=/home/GTCKali/Computer_Forensics_Project/Phase2/dc3dd.txt
+device size: 16777216 sectors (probed),    8,589,934,592 bytes
+sector size: 512 bytes (probed)
+  8589934592 bytes ( 8 G ) copied ( 100% ), 306.475 s, 27 M/s
+
+input results for device `/dev/sdc':
+   16777216 sectors in
+   0 bad sectors replaced by zeros
+   252df1cacb03b04c5eeb6c8f8558e586bec3a85b3a1f52ee59cbf950aaeb80f5 (sha256)
+
+output results for file `/home/GTCKali/Computer_Forensics_Project/Phase2/windows_target_image.dd':
+   16777216 sectors out
+
+dc3dd completed at 2026-04-29 23:52:15 +0000
+
